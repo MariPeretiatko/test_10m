@@ -36,7 +36,7 @@ std::vector<long long> &initNewSequence(std::vector<long long> &sequence, std::v
 
 double sumAllElements(std::vector<long long> &numbers, int size)
 {
-	double sumOfElems;
+	double sumOfElems = 0.0;
 	for (int i = 0; i < size; i++)
 		sumOfElems += numbers[i];
 	return (sumOfElems);
