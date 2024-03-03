@@ -16,7 +16,7 @@ This program is designed to analyze data read from a file and output various inf
 
 # Usage
 
-- Compile and create the executables
+- Compile and create the executables (If you have compilation problems change g++ to c++)
   ```
   make
   ```
