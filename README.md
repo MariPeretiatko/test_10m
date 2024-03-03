@@ -13,3 +13,18 @@ This program is designed to analyze data read from a file and output various inf
 - **Console Output:** Outputs the found values of maximum, minimum, median, average and sequence of numbers to the console.
 
 - **Execution Time Measurement:** The program takes its execution time and outputs it to the console.
+
+# Usage
+
+- Compile and create the executables
+  ```
+  make
+  ```
+- Run the program by executing the test executable and passing the filename
+  ```
+  ./test <filename>
+  ```
+- Example
+  ```
+  ./test 10m.txt
+  ```
