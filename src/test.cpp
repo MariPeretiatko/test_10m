@@ -7,7 +7,8 @@ int main(int ac, char *av[])
     const std::string filename = initFilename(ac, av);
 
     std::vector<long long> numbers;
-    readDataFromFile(filename, numbers);
+    if(!readDataFromFile(filename, numbers))
+        return (0);
     int size = numbers.size();
     if (size == 0)
 	{

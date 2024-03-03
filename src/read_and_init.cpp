@@ -8,7 +8,7 @@ bool readDataFromFile(const std::string &filename, std::vector<long long> &numbe
     if (!file.is_open())
     {
         std::cout << "\n\e[1;31mError with file\n\e[0m";
-        std::cerr << "Failed to open the file.\n";
+        std::cerr << "Failed to open the file.\n\n";
         return false;
     }
     while (file >> number)
@@ -24,7 +24,7 @@ std::string initFilename(int ac, char *av[])
 {
     std::string filename;
     if (ac == 1)
-        filename = "10m.txt";
+        filename = "empty";
     else if (ac == 2)
         filename = av[1];
     else
